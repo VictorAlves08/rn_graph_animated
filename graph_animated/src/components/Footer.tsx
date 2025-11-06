@@ -1,6 +1,7 @@
 import Octicons from "@expo/vector-icons/Octicons";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+
 const Footer = () => {
   return (
     <View style={styles.container}>
@@ -44,7 +45,7 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   legendContainer: {
-    backgroundColor: "#020c01",
+    backgroundColor: "#0A0B0C",
     borderWidth: 1,
     borderColor: "#141518",
     borderRadius: 16,
@@ -67,11 +68,12 @@ const styles = StyleSheet.create({
   legendText: {
     color: "#FFFFFF",
     fontSize: 16,
+    fontWeight: "600",
   },
   sourceContainer: {
-    backgroundColor: "#16191D",
+    backgroundColor: "#141518",
     borderWidth: 1,
-    borderColor: "#141518",
+    borderColor: "#16191D",
     borderRadius: 16,
     padding: 16,
     paddingLeft: 18,

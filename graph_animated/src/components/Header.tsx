@@ -1,6 +1,7 @@
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+
 const Header = () => {
   return (
     <View style={styles.container}>
@@ -49,7 +50,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   text: {
-    fontSize: 16,
+    fontSize: 18,
+    fontWeight: "600",
     lineHeight: 24,
     color: "#FFFFFF",
     textAlign: "center",
